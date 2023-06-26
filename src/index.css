@@ -1,0 +1,196 @@
+.categories {
+  cursor: pointer;
+  padding: 4px;
+}
+.categories:hover {
+  color: #1976d2;
+}
+.card-text {
+  font-size: 14px;
+}
+.avatar {
+  color: #495057;
+  margin-right: 3px;
+}
+.list-item {
+  margin-bottom: 48px;
+}
+.divider {
+  background-color: #e9ecef;
+}
+
+.links {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+.links:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.links:hover {
+  color: #1976d2;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.list-item {
+  display: flex;
+  list-style: none;
+  font-size: 14px;
+  font-family: "cairo";
+  font-weight: 700;
+  align-items: center;
+}
+
+.success-alert {
+  animation: fadeInOut 1s linear 1s forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.menu-item:hover {
+  color: #1976d2;
+}
+
+li {
+  font-family: cairo;
+}
+
+.links-form:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.links-form:hover {
+  color: #e03131;
+}
+.profile:hover {
+  animation-duration: 1s;
+  animation-name: tada;
+}
+
+.rate-btn {
+  color: #000;
+}
+.rate-btn:hover {
+  color: #1976d2;
+  background-color: transparent;
+  animation-duration: 1s;
+  animation-name: tada;
+}
+.rate-btn:focus {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.btn-bg-color {
+  background: linear-gradient(
+    279deg,
+    rgba(13, 169, 236, 0.9559164733178654) 0%,
+    rgba(112, 27, 232, 1) 100%
+  );
+  transition: 2s ease-in-out;
+}
+
+.btn-bg-color:hover {
+  transform: scale(1.05);
+}
+
+.success-animation {
+  margin: 150px auto;
+}
+
+.checkmark {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #4bb71b;
+  stroke-miterlimit: 10;
+  box-shadow: inset 0px 0px 0px #4bb71b;
+  animation: fill 0.4s ease-in-out 0.4s forwards,
+    scale 0.3s ease-in-out 0.9s both;
+  position: relative;
+  top: 5px;
+  right: 5px;
+  margin: 0 auto;
+}
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #4bb71b;
+  fill: #fff;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: none;
+  }
+
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #4bb71b;
+  }
+}
+
+.secondary-text {
+  color: #868e96;
+}
+
+.social-icons {
+  cursor: pointer;
+  margin-right: 12px;
+}
+.social-icons:hover {
+  transform: scale(1.2);
+}
+
+.footer-links {
+  cursor: pointer;
+  color: #495057;
+  text-decoration: none;
+  margin-bottom: 8px !important;
+}
+
+.footer-links:hover {
+  color: #1976d2;
+}
+
+.contact-items{
+  margin-bottom: 10px !important;
+}
