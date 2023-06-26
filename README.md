@@ -1,7 +1,8 @@
 # E-Commerce
 A modern e-commerce web app that allows users to browse products, add them to the cart, purchase with the ability to change the quantity, and login with their Google email. The app also enables users to change their display name, change their password, and delete their account.
-![image](https://github.com/Yehya22/react-ecommerce/assets/103425651/771c3bd7-496a-4450-94aa-eacdbe8b3948)
-![image](https://github.com/Yehya22/react-ecommerce/assets/103425651/6291aa2a-c5f0-44c7-9910-22211f705a61)
+![image](https://github.com/Yehya22/react-e-commerce/assets/103425651/4dc3fa56-685f-4d72-b93b-2bd8d0cba15d)
+
+![image](https://github.com/Yehya22/react-e-commerce/assets/103425651/cdd61657-a2f9-4bd0-b525-40e9e36fcd87)
 
 
 # demo
